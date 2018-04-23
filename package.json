@@ -1,26 +1,21 @@
 {
-  "name": "burger",
+  "name": "node_what_todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wollenet/burger.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wollenet/burger/issues"
-  },
-  "homepage": "https://github.com/wollenet/burger#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
-    "mysql": "^2.15.0"
+    "express": "^4.16.3",
+    "express-handlebars": "^2.0.1",
+    "mysql": "^2.15.0",
+    "sequelize": "^3.32.1"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
   }
 }
